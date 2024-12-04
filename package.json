@@ -13,5 +13,28 @@
         "postcss": "^8.4.47",
         "tailwindcss": "^3.4.13",
         "vite": "^5.0"
-    }
+    },
+    "name": "js-webtopup",
+    "version": "1.0.0",
+    "description": "Website for Topup Games",
+    "main": "public/index.php",
+    "directories": {
+        "test": "tests"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jswikarta/js-webtopup.git"
+    },
+    "keywords": [
+        "topup",
+        "website",
+        "laravel",
+        "tailwind"
+    ],
+    "author": "Johan Saka Wikarta",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/jswikarta/js-webtopup/issues"
+    },
+    "homepage": "https://github.com/jswikarta/js-webtopup#readme"
 }
