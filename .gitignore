@@ -3,12 +3,23 @@ node_modules/
 npm-debug.log
 yarn-error.log
 
+.phpactor.json
+auth.json
+/.fleet
+/.idea
+/.nova
+/.vscode
+/.zed
+
 # Laravel 4 specific
 bootstrap/compiled.php
 app/storage/
+storage/*.key
+storage/pail
 
 # Laravel 5 & Lumen specific
 public/storage
+public/build
 public/hot
 
 # Laravel 5 & Lumen specific with changed public path
@@ -17,7 +28,11 @@ public_html/hot
 
 storage/*.key
 .env
+.env.backup
+.env.production
+
 Homestead.yaml
 Homestead.json
 /.vagrant
+.phpunit.cache
 .phpunit.result.cache
